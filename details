@@ -1,0 +1,15 @@
+seno=int(input("enter serial no:"))
+sname=input("enter the student name: ")
+group=input("enter the group name: ")
+gen=input("enter the gender: ")
+add=input("enter the address")
+phno=int(input("enter phone no"))
+    
+
+output:
+enter serial no:5
+enter the student name: sailu
+enter the group name: ds
+enter the gender: female
+enter the address:katheru,rjy
+enter phone no:99515646565
