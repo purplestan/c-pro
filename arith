@@ -1,0 +1,18 @@
+a=int(input("enter a val :"))
+b=int(input("enter a val :"))
+z=a+b
+y=a-b
+i=a*b
+d=a/b
+f=a//b
+p=a%b
+e=a**b
+
+print("the addition is",z)
+print("the subraction is",y)
+print("the multiplication is",i)
+print("the division is",d)
+print("the floor val is" ,f)
+print("the modulus oprtion is",p)
+print("the exponential val is",e)
+print("Thank u for visiting arithmetic store yaar,....here you go")
