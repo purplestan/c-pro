@@ -1,0 +1,7 @@
+pin=int(input("enter a pin code: "))
+if pin == 2709:
+    print("yeah.!It is valid..and you can continue your transactions")
+else:
+    print("incorrect pin so enter a pin number that is valid....please try again")
+          
+print("Thank you for your visit")
