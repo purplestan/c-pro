@@ -1,0 +1,19 @@
+empo=int(input("enter employee  id num:"))
+empname=input("enter name of employee:")
+empdesig=input("enter in which side he is working:")
+bs=int(input("enter basic salary of the employee:"))
+da=int(input("enter daily amt of employee:"))
+ta=int(input("enter travelling allowance:"))
+hra=int(input("enter house rental allowance:"))
+netsal=bs+da+ta+hra
+print("the net sal is",netsal)
+if netsal>100000:
+    print("The tax is" ,netsal*10/100)
+elif netsal>50000:
+    print("the tax is 7%")
+elif netsal>40000:
+     print("the tax is 4%")
+elif netsal>20000:
+     print("the tax is 2%")
+
+else:
