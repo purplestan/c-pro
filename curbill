@@ -1,0 +1,22 @@
+name1=input("enter 1st name")
+name2=input("enter last name")
+units=int(input("enter the no of units:"))
+if units>=1 and units<=50:
+       cost=0.40
+elif units>=51 and units<=100:
+       cost=0.56
+elif units>=101 and units<=200:
+       cost=0.90
+elif units>=201 and units<=300:
+       cost=1.20
+else:
+       cost=3.00
+bill=units*cost
+
+print("The extra charge is ",cost)
+print("The total units used",units)
+print("***********hi********")
+print("***********your electricity bill **************")
+
+print("The bill is",bill)
+
