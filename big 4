@@ -1,0 +1,12 @@
+a=int(input("enter a num val a:"))
+b=int(input("enter a num val b :"))
+c=int(input("enter a num val c:"))
+d=int(input("enter a num val d:"))
+if a>b  and a>c and a>d:
+    print("the biggest of 4 is a",a)
+if b>a and b>c and b>d:
+    print("the biggest of 4 is b",b)
+if c>a and c>b and c>d :
+    print("the biggest of 4 is c",c)
+if d>a and d>b and d>c :
+    print("the biggest of 4 is d",d) 
