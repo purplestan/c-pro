@@ -1,0 +1,9 @@
+def vote(age):
+       if (age>18):
+              print("yes")
+       else:
+              print("No")
+print("TO KNOW YOU R ELIGIBLE")
+years=int(input("enter age:"))
+
+vote(years)
