@@ -1,0 +1,10 @@
+a = [5, 3, 2, 8]
+st = a[0]
+lt = a[0]
+l = len(a)
+for i in range(l):
+    if a[i] < st:
+        st = a[i]
+    elif a[i] > lt:
+        lt = a [i]
+print("Small: {}, Large: {} ".format(st,lt))
